@@ -6,7 +6,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 6.0.4
-    created: "2023-02-07T12:30:28.194685+01:00"
+    created: "2023-02-07T14:05:52.860929+01:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -36,13 +36,49 @@ entries:
     urls:
     - mongodb-13.6.7.tgz
     version: 13.6.7
+  postgresql:
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 15.1.0
+    created: "2023-02-07T14:05:52.865069+01:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: PostgreSQL (Postgres) is an open source object-relational database
+      known for reliability and data integrity. ACID-compliant, it supports foreign
+      keys, joins, views, triggers and stored procedures.
+    digest: 9ee4d04e43fc4d4837c4269c7c71c853d4850f75b24b73be719167c882c59b49
+    home: https://github.com/bitnami/charts/tree/main/bitnami/postgresql
+    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-220x234.png
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: postgresql
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/postgresql
+    - https://www.postgresql.org/
+    urls:
+    - postgresql-12.1.14.tgz
+    version: 12.1.14
   rabbitmq:
   - annotations:
       category: Infrastructure
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 3.11.8
-    created: "2023-02-07T12:30:28.199826+01:00"
+    created: "2023-02-07T14:05:52.869636+01:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -75,7 +111,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.0.8
-    created: "2023-02-07T12:30:28.209581+01:00"
+    created: "2023-02-07T14:05:52.87459+01:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -101,4 +137,4 @@ entries:
     urls:
     - redis-17.7.1.tgz
     version: 17.7.1
-generated: "2023-02-07T12:30:28.180179+01:00"
+generated: "2023-02-07T14:05:52.854134+01:00"
