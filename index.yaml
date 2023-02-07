@@ -6,7 +6,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 6.0.4
-    created: "2023-02-07T14:05:52.860929+01:00"
+    created: "2023-02-07T14:07:37.659821+01:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -42,7 +42,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 15.1.0
-    created: "2023-02-07T14:05:52.865069+01:00"
+    created: "2023-02-07T14:07:37.664665+01:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -78,7 +78,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 3.11.8
-    created: "2023-02-07T14:05:52.869636+01:00"
+    created: "2023-02-07T14:07:37.668937+01:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -111,7 +111,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.0.8
-    created: "2023-02-07T14:05:52.87459+01:00"
+    created: "2023-02-07T14:07:37.674524+01:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -137,4 +137,28 @@ entries:
     urls:
     - redis-17.7.1.tgz
     version: 17.7.1
-generated: "2023-02-07T14:05:52.854134+01:00"
+  test01:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-02-07T14:07:37.693089+01:00"
+    dependencies:
+    - name: mongodb
+      repository: '@bitnami-clone'
+      version: 13.6.7
+    - name: redis
+      repository: '@bitnami-clone'
+      version: 17.7.1
+    - name: rabbitmq
+      repository: '@bitnami-clone'
+      version: 11.8.0
+    - name: test02
+      repository: file://../test02
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: f3e619ed4fe4a61109b8081e5f3870fe93da31b90fe9878f50e2a2710bf41a5f
+    name: test01
+    type: application
+    urls:
+    - test01-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-02-07T14:07:37.648143+01:00"
